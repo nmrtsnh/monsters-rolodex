@@ -9,10 +9,7 @@ class Card extends Component {
       <div className="card-container" key={id}>
         <img
           alt={`monster ${name}`}
-          // src={`https://robohash.org/${id}?set=set2&`}
-          // src={`https://robohash.org/QZT.png?set=set${id}`}
-          src={`https://robohash.org/${id}`}
-          // src={`https://robohash.org/${id}?set=set5`}
+          src={`https://robohash.org/${id}?set=set2&`}
         ></img>
         <h2>{name}</h2>
         <p>{email}</p>
